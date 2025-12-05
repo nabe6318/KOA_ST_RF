@@ -17,7 +17,7 @@ st.set_page_config(
 
 # タイトル（少し小さいサイズ）
 st.markdown(
-    "<h3 style='font-size:20px;'>🌱 地温予測モデルアプリ（Random Forest）</h3>",
+    "<h3 style='font-size:20px;'>🌱 地温予測モデルアプリ（Random Forest）信大作成</h3>",
     unsafe_allow_html=True
 )
 
@@ -280,3 +280,4 @@ if "date" in df_clean.columns and "TMP_mean_obs" in df_clean.columns:
 
 else:
     st.info("date または TMP_mean_obs 列が存在しないため、時系列グラフを描画できません。")
+
